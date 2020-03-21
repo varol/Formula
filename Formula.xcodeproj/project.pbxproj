@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1243E4AF48A2B21F6E468AEA /* Pods_Formula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBF6922AF5CBEBE69ECBA53 /* Pods_Formula.framework */; };
 		F9887522242631A400CDC872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9887521242631A400CDC872 /* AppDelegate.swift */; };
 		F9887524242631A400CDC872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9887523242631A400CDC872 /* SceneDelegate.swift */; };
-		F9887526242631A400CDC872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9887525242631A400CDC872 /* ViewController.swift */; };
 		F9887529242631A400CDC872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9887527242631A400CDC872 /* Main.storyboard */; };
 		F988752B242631A600CDC872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F988752A242631A600CDC872 /* Assets.xcassets */; };
 		F988752E242631A600CDC872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F988752C242631A600CDC872 /* LaunchScreen.storyboard */; };
+		F988754524265D1400CDC872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754424265D1400CDC872 /* Constants.swift */; };
+		F988754924265D4200CDC872 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754624265D4200CDC872 /* Network.swift */; };
+		F988754A24265D4200CDC872 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754724265D4200CDC872 /* RequestManager.swift */; };
+		F988754B24265D4200CDC872 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754824265D4200CDC872 /* Router.swift */; };
+		F988755C24265D5000CDC872 /* DriverDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754D24265D5000CDC872 /* DriverDetailInteractor.swift */; };
+		F988755D24265D5000CDC872 /* DriverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754E24265D5000CDC872 /* DriverDetailViewController.swift */; };
+		F988755E24265D5000CDC872 /* DriverDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988754F24265D5000CDC872 /* DriverDetailRouter.swift */; };
+		F988755F24265D5000CDC872 /* DriverDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755024265D5000CDC872 /* DriverDetailPresenter.swift */; };
+		F988756024265D5000CDC872 /* DriverEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755324265D5000CDC872 /* DriverEntity.swift */; };
+		F988756124265D5000CDC872 /* DriverDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755424265D5000CDC872 /* DriverDetailEntity.swift */; };
+		F988756224265D5000CDC872 /* DriverInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755524265D5000CDC872 /* DriverInteractor.swift */; };
+		F988756324265D5000CDC872 /* DriverListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755724265D5000CDC872 /* DriverListCell.swift */; };
+		F988756424265D5000CDC872 /* DriverListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F988755824265D5000CDC872 /* DriverListCell.xib */; };
+		F988756524265D5000CDC872 /* DriverRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755924265D5000CDC872 /* DriverRouter.swift */; };
+		F988756624265D5000CDC872 /* DriverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755A24265D5000CDC872 /* DriverPresenter.swift */; };
+		F988756724265D5000CDC872 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988755B24265D5000CDC872 /* DriverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67C3C8F17A0F997815FB06E8 /* Pods-Formula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formula.release.xcconfig"; path = "Target Support Files/Pods-Formula/Pods-Formula.release.xcconfig"; sourceTree = "<group>"; };
+		ECBF6922AF5CBEBE69ECBA53 /* Pods_Formula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Formula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F988751E242631A400CDC872 /* Formula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9887521242631A400CDC872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9887523242631A400CDC872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9887525242631A400CDC872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9887528242631A400CDC872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F988752A242631A600CDC872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F988752D242631A600CDC872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F988752F242631A600CDC872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F988754424265D1400CDC872 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F988754624265D4200CDC872 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F988754724265D4200CDC872 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		F988754824265D4200CDC872 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F988754D24265D5000CDC872 /* DriverDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailInteractor.swift; sourceTree = "<group>"; };
+		F988754E24265D5000CDC872 /* DriverDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailViewController.swift; sourceTree = "<group>"; };
+		F988754F24265D5000CDC872 /* DriverDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailRouter.swift; sourceTree = "<group>"; };
+		F988755024265D5000CDC872 /* DriverDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailPresenter.swift; sourceTree = "<group>"; };
+		F988755324265D5000CDC872 /* DriverEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverEntity.swift; sourceTree = "<group>"; };
+		F988755424265D5000CDC872 /* DriverDetailEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailEntity.swift; sourceTree = "<group>"; };
+		F988755524265D5000CDC872 /* DriverInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverInteractor.swift; sourceTree = "<group>"; };
+		F988755724265D5000CDC872 /* DriverListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverListCell.swift; sourceTree = "<group>"; };
+		F988755824265D5000CDC872 /* DriverListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverListCell.xib; sourceTree = "<group>"; };
+		F988755924265D5000CDC872 /* DriverRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRouter.swift; sourceTree = "<group>"; };
+		F988755A24265D5000CDC872 /* DriverPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverPresenter.swift; sourceTree = "<group>"; };
+		F988755B24265D5000CDC872 /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		FFA3B4B7F0C60537729E17AC /* Pods-Formula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formula.debug.xcconfig"; path = "Target Support Files/Pods-Formula/Pods-Formula.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1243E4AF48A2B21F6E468AEA /* Pods_Formula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E7B1BE3EB11D4CBDE6F1AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF6922AF5CBEBE69ECBA53 /* Pods_Formula.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25CE6B9A68489D00FEF7B790 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA3B4B7F0C60537729E17AC /* Pods-Formula.debug.xcconfig */,
+				67C3C8F17A0F997815FB06E8 /* Pods-Formula.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9887515242631A400CDC872 = {
 			isa = PBXGroup;
 			children = (
 				F9887520242631A400CDC872 /* Formula */,
 				F988751F242631A400CDC872 /* Products */,
+				25CE6B9A68489D00FEF7B790 /* Pods */,
+				1E7B1BE3EB11D4CBDE6F1AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,94 @@
 		F9887520242631A400CDC872 /* Formula */ = {
 			isa = PBXGroup;
 			children = (
+				F988754224265CA500CDC872 /* Modules */,
+				F988754124265C9F00CDC872 /* Network */,
+				F988754024265C9700CDC872 /* Utils */,
+				F988754324265CAB00CDC872 /* Supporting Files */,
+			);
+			path = Formula;
+			sourceTree = "<group>";
+		};
+		F988754024265C9700CDC872 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F988754124265C9F00CDC872 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F988754624265D4200CDC872 /* Network.swift */,
+				F988754724265D4200CDC872 /* RequestManager.swift */,
+				F988754824265D4200CDC872 /* Router.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F988754224265CA500CDC872 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F988755124265D5000CDC872 /* Driver */,
+				F988754C24265D5000CDC872 /* DriverDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F988754324265CAB00CDC872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9887527242631A400CDC872 /* Main.storyboard */,
 				F9887521242631A400CDC872 /* AppDelegate.swift */,
 				F9887523242631A400CDC872 /* SceneDelegate.swift */,
-				F9887525242631A400CDC872 /* ViewController.swift */,
-				F9887527242631A400CDC872 /* Main.storyboard */,
 				F988752A242631A600CDC872 /* Assets.xcassets */,
 				F988752C242631A600CDC872 /* LaunchScreen.storyboard */,
 				F988752F242631A600CDC872 /* Info.plist */,
+				F988754424265D1400CDC872 /* Constants.swift */,
 			);
-			path = Formula;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F988754C24265D5000CDC872 /* DriverDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F988754D24265D5000CDC872 /* DriverDetailInteractor.swift */,
+				F988754E24265D5000CDC872 /* DriverDetailViewController.swift */,
+				F988754F24265D5000CDC872 /* DriverDetailRouter.swift */,
+				F988755024265D5000CDC872 /* DriverDetailPresenter.swift */,
+			);
+			path = DriverDetail;
+			sourceTree = "<group>";
+		};
+		F988755124265D5000CDC872 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				F988755224265D5000CDC872 /* Entity */,
+				F988755624265D5000CDC872 /* Cell */,
+				F988755924265D5000CDC872 /* DriverRouter.swift */,
+				F988755524265D5000CDC872 /* DriverInteractor.swift */,
+				F988755A24265D5000CDC872 /* DriverPresenter.swift */,
+				F988755B24265D5000CDC872 /* DriverViewController.swift */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		F988755224265D5000CDC872 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F988755324265D5000CDC872 /* DriverEntity.swift */,
+				F988755424265D5000CDC872 /* DriverDetailEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F988755624265D5000CDC872 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F988755724265D5000CDC872 /* DriverListCell.swift */,
+				F988755824265D5000CDC872 /* DriverListCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9887532242631A600CDC872 /* Build configuration list for PBXNativeTarget "Formula" */;
 			buildPhases = (
+				5B099C5E8FAF558987B0B870 /* [CP] Check Pods Manifest.lock */,
 				F988751A242631A400CDC872 /* Sources */,
 				F988751B242631A400CDC872 /* Frameworks */,
 				F988751C242631A400CDC872 /* Resources */,
+				BD02B03757ACAB7F7F6752C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +263,76 @@
 				F988752E242631A600CDC872 /* LaunchScreen.storyboard in Resources */,
 				F988752B242631A600CDC872 /* Assets.xcassets in Resources */,
 				F9887529242631A400CDC872 /* Main.storyboard in Resources */,
+				F988756424265D5000CDC872 /* DriverListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B099C5E8FAF558987B0B870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Formula-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD02B03757ACAB7F7F6752C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Formula/Pods-Formula-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Formula/Pods-Formula-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Formula/Pods-Formula-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F988751A242631A400CDC872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9887526242631A400CDC872 /* ViewController.swift in Sources */,
+				F988756024265D5000CDC872 /* DriverEntity.swift in Sources */,
+				F988756524265D5000CDC872 /* DriverRouter.swift in Sources */,
+				F988754A24265D4200CDC872 /* RequestManager.swift in Sources */,
 				F9887522242631A400CDC872 /* AppDelegate.swift in Sources */,
+				F988756624265D5000CDC872 /* DriverPresenter.swift in Sources */,
+				F988755D24265D5000CDC872 /* DriverDetailViewController.swift in Sources */,
+				F988756724265D5000CDC872 /* DriverViewController.swift in Sources */,
 				F9887524242631A400CDC872 /* SceneDelegate.swift in Sources */,
+				F988755E24265D5000CDC872 /* DriverDetailRouter.swift in Sources */,
+				F988755F24265D5000CDC872 /* DriverDetailPresenter.swift in Sources */,
+				F988756224265D5000CDC872 /* DriverInteractor.swift in Sources */,
+				F988754924265D4200CDC872 /* Network.swift in Sources */,
+				F988756324265D5000CDC872 /* DriverListCell.swift in Sources */,
+				F988755C24265D5000CDC872 /* DriverDetailInteractor.swift in Sources */,
+				F988754B24265D4200CDC872 /* Router.swift in Sources */,
+				F988754524265D1400CDC872 /* Constants.swift in Sources */,
+				F988756124265D5000CDC872 /* DriverDetailEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +474,12 @@
 		};
 		F9887533242631A600CDC872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA3B4B7F0C60537729E17AC /* Pods-Formula.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDP6Y3828G;
-				INFOPLIST_FILE = Formula/Info.plist;
+				INFOPLIST_FILE = "Formula/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +493,12 @@
 		};
 		F9887534242631A600CDC872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C3C8F17A0F997815FB06E8 /* Pods-Formula.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDP6Y3828G;
-				INFOPLIST_FILE = Formula/Info.plist;
+				INFOPLIST_FILE = "Formula/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
